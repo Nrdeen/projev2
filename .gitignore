@@ -1,0 +1,13 @@
+node_modules/
+build/
+dist/
+coverage/
+.DS_Store
+*.log
+.env*
+!.env.example
+# Runtime data holds password hashes, sessions and private messages: never commit it.
+data/store.json
+data/backups/
+data/.store.lock
+data/*.tmp
